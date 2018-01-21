@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {
+//      "modules": false,
+      "loose": true,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions"]
+      },
+      "spec": true,
+      "debug": true
+    }],
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime"
+  ]
+}
