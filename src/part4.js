@@ -9,5 +9,5 @@
 import './part4.css'
 import appender from './part2'
 export default function () {
-  appender('parr4, class part4', 'part4')
+  appender('parr4, class part4，asyn loading', 'part4')
 }
